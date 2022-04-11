@@ -3,12 +3,12 @@ author: "Matthew Sanabria"
 description: "A GitHub Action to install a specific version of HashiCorp Packer and add it to PATH."
 inputs:
   packer-version:
-    description: "The HashiCorp Packer version to install and add to PATH."
+    description: "The Packer version to install and add to PATH. Supports semver versioning."
     required: true
     default: "latest"
 outputs:
   packer-version:
-    description: "The HashiCorp Packer version that was installed and added to PATH."
+    description: "The Packer version that was installed and added to PATH."
 runs:
   using: "node16"
   main: "dist/index.js"
