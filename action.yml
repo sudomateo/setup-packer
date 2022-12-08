@@ -1,4 +1,4 @@
-name: "Setup HashiCorp Packer"
+name: "Setup HashiCorp Packer (sudomateo)"
 author: "Matthew Sanabria"
 description: "A GitHub Action to install a specific version of HashiCorp Packer and add it to PATH."
 inputs:
