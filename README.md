@@ -1,5 +1,7 @@
 # setup-packer
 
+**This repository is no longer maintained. It was merged into https://github.com/hashicorp/setup-packer.**
+
 The `sudomateo/setup-packer` action is a JavaScript action that sets up
 HashiCorp [Packer](https://www.packer.io) in your GitHub Actions workflow by:
 
